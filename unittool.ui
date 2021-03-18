@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>969</width>
+    <height>947</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>UnitConverter</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon/unit converter ICON.png</normaloff>icon/unit converter ICON.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <property name="spacing">
+       <number>15</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="spacing">
+         <number>300</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_31">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <italic>false</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Unit Converter Tools</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_42">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>80</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="photo.qrc">:/icon/icon/copy_21mm.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox">
+        <property name="text">
+         <string>Click here for Scientific numbers</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Molarity</string>
+         </attribute>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>881</width>
+            <height>731</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QSplitter" name="splitter">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="handleWidth">
+              <number>30</number>
+             </property>
+             <widget class="QWidget" name="layoutWidget_2">
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <property name="spacing">
+                <number>20</number>
+               </property>
+               <property name="leftMargin">
+                <number>30</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="text">
+                  <string>mol/cubic meter </string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_2">
+                 <property name="text">
+                  <string>mol/liter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_3">
+                 <property name="text">
+                  <string>mol/cubic decimeter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="text">
+                  <string>mol/cubic centimeter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_11">
+                 <property name="text">
+                  <string>mol/cubic millimeter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string>kilomol/cubic meter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_10">
+                 <property name="text">
+                  <string>kilomol/liter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_9">
+                 <property name="text">
+                  <string>kilomol/cubic centimeter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_8">
+                 <property name="text">
+                  <string>kilomol/cubic millimeter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_6">
+                 <property name="text">
+                  <string>millimole/cubic meter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_7">
+                 <property name="text">
+                  <string>millimole/liter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_12">
+                 <property name="text">
+                  <string>millimole/cubic centimeter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_13">
+                 <property name="text">
+                  <string>millimole/cubic millimeter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_14">
+                 <property name="text">
+                  <string>millimole/milliliter</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_15">
+                 <property name="text">
+                  <string>micromole/liter</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="layoutWidget_3">
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <property name="spacing">
+                <number>20</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+               <item>
+                <widget class="QLineEdit" name="l1"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l2"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l3"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l4"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l5"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l6"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l7"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l8"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l9"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l10"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l11"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l12"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l13"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l14"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l15"/>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="layoutWidget_4">
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_26">
+                 <property name="text">
+                  <string>micromol/milliliter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_16">
+                 <property name="text">
+                  <string>micromol/microliter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_20">
+                 <property name="text">
+                  <string>picomol/microliter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_21">
+                 <property name="text">
+                  <string>picomol/milliliter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_22">
+                 <property name="text">
+                  <string>picomole/liter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_28">
+                 <property name="text">
+                  <string>nanomole/liter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_27">
+                 <property name="text">
+                  <string>nanomole/milliliter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_17">
+                 <property name="text">
+                  <string>nanomole/microliter</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_18">
+                 <property name="text">
+                  <string>Molar</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_25">
+                 <property name="text">
+                  <string>milliMolar</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_23">
+                 <property name="text">
+                  <string>microMolar</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_19">
+                 <property name="text">
+                  <string>nanoMolar</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_29">
+                 <property name="text">
+                  <string>picoMolar</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_24">
+                 <property name="text">
+                  <string>femtoMolar</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="layoutWidget_5">
+              <layout class="QVBoxLayout" name="verticalLayout_4" stretch="5,0,0,0,0,0,0,0,0,0,0,0,0,4">
+               <property name="spacing">
+                <number>20</number>
+               </property>
+               <property name="sizeConstraint">
+                <enum>QLayout::SetNoConstraint</enum>
+               </property>
+               <property name="topMargin">
+                <number>8</number>
+               </property>
+               <item>
+                <widget class="QLineEdit" name="l16"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l17"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l18"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l19"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l20"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l21"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l22"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l23"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l24"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l25"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l26"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l27"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l28"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="l29">
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>distance</string>
+         </attribute>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>21</y>
+            <width>851</width>
+            <height>521</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="spacing">
+            <number>6</number>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="leftMargin">
+              <number>20</number>
+             </property>
+             <property name="rightMargin">
+              <number>50</number>
+             </property>
+             <property name="horizontalSpacing">
+              <number>70</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>20</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_32">
+               <property name="text">
+                <string>meter </string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="d1"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_33">
+               <property name="text">
+                <string>kilometer</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="d2"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_34">
+               <property name="text">
+                <string>centimeter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="d3"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_35">
+               <property name="text">
+                <string>millimeter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="d4"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_36">
+               <property name="text">
+                <string>micrometer</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="d5"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_37">
+               <property name="text">
+                <string>micron</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="d6"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_38">
+               <property name="text">
+                <string>nanometer</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="d7"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_39">
+               <property name="text">
+                <string>picometer</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="d8"/>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_40">
+               <property name="text">
+                <string>decimeter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QLineEdit" name="d9"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <property name="leftMargin">
+              <number>30</number>
+             </property>
+             <property name="horizontalSpacing">
+              <number>40</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_41">
+               <property name="text">
+                <string>nautical league</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="d10"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_47">
+               <property name="text">
+                <string>nautical mile</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="d11"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_48">
+               <property name="text">
+                <string>inch</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="d12"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_49">
+               <property name="text">
+                <string>yard</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="d13"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_50">
+               <property name="text">
+                <string>foot</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="d14"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_51">
+               <property name="text">
+                <string>league</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="d15"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_52">
+               <property name="text">
+                <string>mile</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="d16"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_53">
+               <property name="text">
+                <string>light year</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="d17"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>volume</string>
+         </attribute>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>30</y>
+            <width>811</width>
+            <height>671</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="spacing">
+            <number>30</number>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_43">
+               <property name="text">
+                <string>cubic meter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="v1"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_66">
+               <property name="text">
+                <string>cubic kilometer</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_65">
+               <property name="text">
+                <string>cubic decimeter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_64">
+               <property name="text">
+                <string>cubic centimeter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="v4"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_63">
+               <property name="text">
+                <string>cubic millimeter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="v5"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_62">
+               <property name="text">
+                <string>cubic micrometer</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="v6"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_61">
+               <property name="text">
+                <string>cubic nanometer</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="v7"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_44">
+               <property name="text">
+                <string>liter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="v8"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="v3"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="v2"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_4">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_60">
+               <property name="text">
+                <string>deciliter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="v9"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_59">
+               <property name="text">
+                <string>centiliter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="v10"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_58">
+               <property name="text">
+                <string>milliliter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="v11"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_57">
+               <property name="text">
+                <string>microliter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="v12"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_56">
+               <property name="text">
+                <string>nanoliter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="v13"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_55">
+               <property name="text">
+                <string>picoliter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="v14"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_54">
+               <property name="text">
+                <string>femtoliter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="v15"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_46">
+               <property name="text">
+                <string>barrel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="v16"/>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_45">
+               <property name="text">
+                <string>gallon</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QLineEdit" name="v17"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string>weight</string>
+         </attribute>
+         <widget class="QWidget" name="layoutWidget_6">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>821</width>
+            <height>671</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="spacing">
+            <number>30</number>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_68">
+               <property name="text">
+                <string>kilogram</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="w2"/>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="w7"/>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="w4"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_67">
+               <property name="text">
+                <string>gram</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_72">
+               <property name="text">
+                <string>milligram</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_69">
+               <property name="text">
+                <string>pound</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="w6"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_74">
+               <property name="text">
+                <string>nanogram</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="w5"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_70">
+               <property name="text">
+                <string>ounce</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_73">
+               <property name="text">
+                <string>microgram</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_71">
+               <property name="text">
+                <string>centigram</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="w8"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="w3"/>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="w1"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_6">
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_79">
+               <property name="text">
+                <string>kiloton</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="w13"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_80">
+               <property name="text">
+                <string>quintal</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="w14"/>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="w9"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_77">
+               <property name="text">
+                <string>dalton</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_75">
+               <property name="text">
+                <string>picogram</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_76">
+               <property name="text">
+                <string>kilodalton</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="w11"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_78">
+               <property name="text">
+                <string>ton</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="w12"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_81">
+               <property name="text">
+                <string>carat</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="w15"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_82">
+               <property name="text">
+                <string>kilopound</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="w16"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="w10"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string>time</string>
+         </attribute>
+         <widget class="QWidget" name="layoutWidget_7">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>40</y>
+            <width>831</width>
+            <height>671</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <property name="spacing">
+            <number>30</number>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_84">
+               <property name="text">
+                <string>second</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="t1"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_85">
+               <property name="text">
+                <string>millisecond</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="t2"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_86">
+               <property name="text">
+                <string>microsecond</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="t3"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_87">
+               <property name="text">
+                <string>nanosecond</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="t4"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_88">
+               <property name="text">
+                <string>picosecond</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="t5"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_89">
+               <property name="text">
+                <string>femtosecond</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="t6"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_90">
+               <property name="text">
+                <string>minute</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="t7"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_91">
+               <property name="text">
+                <string>hour</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="t8"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_92">
+               <property name="text">
+                <string>day</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="t9"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_93">
+               <property name="text">
+                <string>week</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="t10"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_94">
+               <property name="text">
+                <string>month</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="t11"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_95">
+               <property name="text">
+                <string>year</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="t12"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_96">
+               <property name="text">
+                <string>century</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="t13"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_97">
+               <property name="text">
+                <string>decade</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="t14"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_98">
+               <property name="text">
+                <string>millennium</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="t15"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_99">
+               <property name="text">
+                <string>quarter</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="t16"/>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_100">
+               <property name="text">
+                <string>planck time</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QLineEdit" name="t17"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="photo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
