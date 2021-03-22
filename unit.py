@@ -34,7 +34,7 @@ class Main(QMainWindow, FORM_CLASS):
         self.Handel_Buttons3()
         self.Handel_Buttons4()
         self.Handel_Buttons5()
-        self.setWindowIcon(QIcon(resource_path('icon/unit converter ICON.ico')))
+        self.setWindowIcon(QIcon(resource_path('icons/unit converter ICON.ico')))
         self.setWindowTitle("Unit Converter")
         quit = QAction("Quit", self)
         quit.triggered.connect(self.closeEvent)
